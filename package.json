@@ -1,10 +1,15 @@
 {
-  "name": "ng-uikit-pro-standard",
+  "name": "mdb-angular",
   "version": "8.1.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build-prod": "ng build --prod",
+    "firebase-login": "firebase login",
+    "firebase-init": "firebase init",
+    "firebase-deploy": "firebase deploy",
+    "firebase-build-deploy": "ng build --prod && firebase deploy",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
