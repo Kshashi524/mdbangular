@@ -3,9 +3,10 @@ import {SharedModule} from '../../shared/shared.module';
 
 import {RxjsRoutingModule} from './rxjs-routing.module';
 import {RxjsComponent} from './rxjs.component';
+import {LandingComponent} from './landing/landing.component';
 
 @NgModule({
-  declarations: [RxjsComponent],
+  declarations: [RxjsComponent, LandingComponent],
   imports: [
     SharedModule,
     RxjsRoutingModule

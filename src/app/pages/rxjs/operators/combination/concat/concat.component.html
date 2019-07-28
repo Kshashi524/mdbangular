@@ -1,0 +1,67 @@
+<div class="container-fluid">
+  <div>
+    <blockquote class="blockquote border-left border-info mb-5">
+      <p class="mb-0"><span class="red-text pr-2">concat</span> will concat one or more Observables.</p>
+      <p class="mb-0">concat will wait for first Observable to finish before starting next one.</p>
+      <p class="mb-0">Clicking on
+        <button class="my-0 waves-light" color="default" mdbBtn mdbWavesEffect rounded="true" size="sm">Complete
+        </button>
+        will finish the respective inner Observable
+      </p>
+    </blockquote>
+  </div>
+  <div class="mt-5">
+    <div class="row">
+      <div class="col-4">
+        <div class="md-form">
+          <form class="form-inline md-form mr-auto mb-4">
+            <input [ngModel]="stream1" class="form-control mr-sm-2" disabled id="stream1" mdbInput name="stream1"
+                   type="number">
+            <label for="stream1">Stream 1</label>
+            <mdb-success *ngIf="runStream1">Emits every 2 seconds</mdb-success>
+            <mdb-error *ngIf="!runStream1">Stream 1 completed</mdb-error>
+            <button (click)="runStream1=false" class="my-0 waves-light" color="primary" mdbBtn mdbWavesEffect
+                    rounded="true" size="sm">Complete
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="md-form">
+          <form class="form-inline md-form mr-auto mb-4">
+            <input [ngModel]="stream2" class="form-control mr-sm-2" disabled id="stream2" mdbInput name="stream2"
+                   type="number">
+            <label for="stream2">Stream 2</label>
+            <mdb-success *ngIf="runStream2 && !runStream1">Emits every 4 seconds</mdb-success>
+            <mdb-error *ngIf="!runStream2">Stream 2 completed</mdb-error>
+            <mdb-error *ngIf="runStream1">Waiting for Stream 1 to complete</mdb-error>
+            <button (click)="runStream2=false" class="my-0 waves-light" color="secondary" mdbBtn mdbWavesEffect
+                    rounded="true" size="sm">Complete
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="md-form">
+          <form class="form-inline md-form mr-auto mb-4">
+            <input [ngModel]="stream3" class="form-control mr-sm-2" disabled id="stream3" mdbInput name="stream3"
+                   type="number">
+            <label for="stream3">Stream 3</label>
+            <mdb-success *ngIf="runStream3 && !runStream2">Emits every 6 seconds</mdb-success>
+            <mdb-error *ngIf="!runStream3">Stream 3 completed</mdb-error>
+            <mdb-error *ngIf="runStream2">Waiting for Stream 2 to complete</mdb-error>
+            <button (click)="runStream3=false" class="my-0 waves-light" color="warning" mdbBtn mdbWavesEffect
+                    rounded="true" size="sm">Complete
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div *ngIf="concat$ | async as concat" class="md-form">
+        <p>Concat above streams {{concat}}</p>
+        <p>Currently processing </p>
+      </div>
+    </div>
+  </div>
+</div>

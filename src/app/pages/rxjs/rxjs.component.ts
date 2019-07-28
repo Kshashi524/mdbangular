@@ -1,4 +1,6 @@
 import {Component, OnInit} from '@angular/core';
+import {OPERATORS} from './rxjs.constants';
+import {Router} from '@angular/router';
 
 @Component({
   selector: 'app-rxjs',
@@ -7,10 +9,16 @@ import {Component, OnInit} from '@angular/core';
 })
 export class RxjsComponent implements OnInit {
 
-  constructor() {
+  sidenavContent = OPERATORS;
+
+  constructor(private router: Router) {
   }
 
   ngOnInit() {
   }
 
+  navigate(parent: string, child: string) {
+    const url = 'rxjs/operators/' + parent + '/' + child;
+    this.router.navigateByUrl(url).then();
+  }
 }
