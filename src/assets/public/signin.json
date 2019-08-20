@@ -1,14 +1,42 @@
 {
-  "accessToken": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMyIsIjEiOiJTaGFzaGlrYW50aCBLb3RhIiwiMiI6InNrb3RhQGdtYWlsLmNvbSIsIjMiOlsiUk9MRV9VU0VSIl0sImlzcyI6IkVjbGVya19BUEkiLCJpYXQiOjE1NjYyNzExNjEsImV4cCI6MTU2NjI3MjA2MX0.uMVIltJbx3OvivTJqfxr0_3skPMlNFaQ3ytReUIDhrTQeqicaoB-b1QlAULg831DvcvpMw7XIiQgtIeaOl3GIQ",
+  "accessToken": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMyIsIjEiOiJTaGFzaGlrYW50aCBLb3RhIiwiMiI6InNrb3RhQGdtYWlsLmNvbSIsIjMiOlsiUk9MRV9VU0VSIl0sImlzcyI6IkVjbGVya19BUEkiLCJpYXQiOjE1NjYyNzIxMzYsImV4cCI6MTU2NjI3MzAzNn0.CUrKsjFNWB-WsDbIDPXKIMN0p7_fEqtkxpu2nYPE4QeAm4htgxAMTHWs5t_IKAQScYNcgh39YqKXeTr83zl21Q",
   "tokenType": "Bearer",
-  "refreshToken": "eyJhbGciOiJIUzUxMiJ9.eyI0IjoiMTMiLCJpc3MiOiJFY2xlcmtfQVBJIiwiaWF0IjoxNTY2MjcxMTYxLCJleHAiOjE1NjYyNzgzNjF9.EHDu2LWtynEkEpr9T7P0_VYbOllRk2zAl1-wWDEAyV96jp62XTFQePSTo1V_v6do2Y7ViB8HKz7i04XhYF0RKQ",
+  "refreshToken": "eyJhbGciOiJIUzUxMiJ9.eyI0IjoiMTMiLCJpc3MiOiJFY2xlcmtfQVBJIiwiaWF0IjoxNTY2MjcyMTM2LCJleHAiOjE1NjYyNzkzMzZ9.jmd50uDuyCjx31TE71598unZaDTrTvruNzxkBFv5p5hI9vQ-izXVy8jgsTCzmiMKZ2RQ6u5iXWYWTS6F2Iysow",
   "data": {
     "userId": 13,
     "fullName": "Shashikanth Kota",
     "userName": "skota@gmail.com",
+    "dpUrl": "https://api.eclerk.in/api/public/image?t=1&q=null",
     "totalBalance": 0,
-    "accountList": []
+    "accountList": [
+      {
+        "acctKey": "v7Guek1VPd9VyAY3w1mpGA",
+        "businessUserId": 37,
+        "fullName": "",
+        "userNickName": "",
+        "businessName": "Air India Travels and CO",
+        "businessNickName": "",
+        "businessTypeDescription": "Travel Agency or Own Vechile Rentals ",
+        "logoUrl": "https://images.eclerk.in/test/businessTypes/defaultBusinessType.png",
+        "roleId": 1,
+        "roleDescription": "Owner",
+        "oweOrOwed": 0
+      },
+      {
+        "acctKey": "p0_p4a9YbyhVvCbdcWDMlA",
+        "businessUserId": 38,
+        "fullName": "",
+        "userNickName": "",
+        "businessName": "Maria Indian Grocery",
+        "businessNickName": "",
+        "businessTypeDescription": "Departmental or Any store",
+        "logoUrl": "https://images.eclerk.in/test/businessTypes/defaultBusinessType.png",
+        "roleId": 1,
+        "roleDescription": "Owner",
+        "oweOrOwed": 0
+      }
+    ]
   },
-  "message": "Create Account to Get Started",
+  "message": "Logged in Successfully",
   "success": true
 }
