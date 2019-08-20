@@ -1,0 +1,39 @@
+{
+  "data": {
+    "fullName": "Shashikanth Kota",
+    "userName": "skota@gmail.com",
+    "dpUrl": "https://api.eclerk.in/api/public/image?t=1&q=null",
+    "totalBalance": 0,
+    "accountList": [
+      {
+        "acctKey": "v7Guek1VPd9VyAY3w1mpGA",
+        "businessUserId": 37,
+        "fullName": "",
+        "userNickName": "",
+        "businessName": "Air India Travels and CO",
+        "businessNickName": "",
+        "businessTypeDescription": "Travel Agency or Own Vechile Rentals ",
+        "logoUrl": "https://images.eclerk.in/test/businessTypes/defaultBusinessType.png",
+        "roleId": 1,
+        "roleDescription": "Owner",
+        "oweOrOwed": 0
+      },
+      {
+        "acctKey": "p0_p4a9YbyhVvCbdcWDMlA",
+        "businessUserId": 38,
+        "fullName": "",
+        "userNickName": "",
+        "businessName": "Maria Indian Grocery",
+        "businessNickName": "",
+        "businessTypeDescription": "Departmental or Any store",
+        "logoUrl": "https://images.eclerk.in/test/businessTypes/defaultBusinessType.png",
+        "roleId": 1,
+        "roleDescription": "Owner",
+        "oweOrOwed": 0
+      }
+    ]
+  },
+  "message": "Dashboard Loaded Successfully",
+  "success": true,
+  "timestamp": "20-08-2019 08:25:54"
+}
