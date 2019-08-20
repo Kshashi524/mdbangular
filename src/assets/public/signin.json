@@ -1,0 +1,14 @@
+{
+  "accessToken": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMyIsIjEiOiJTaGFzaGlrYW50aCBLb3RhIiwiMiI6InNrb3RhQGdtYWlsLmNvbSIsIjMiOlsiUk9MRV9VU0VSIl0sImlzcyI6IkVjbGVya19BUEkiLCJpYXQiOjE1NjYyNzExNjEsImV4cCI6MTU2NjI3MjA2MX0.uMVIltJbx3OvivTJqfxr0_3skPMlNFaQ3ytReUIDhrTQeqicaoB-b1QlAULg831DvcvpMw7XIiQgtIeaOl3GIQ",
+  "tokenType": "Bearer",
+  "refreshToken": "eyJhbGciOiJIUzUxMiJ9.eyI0IjoiMTMiLCJpc3MiOiJFY2xlcmtfQVBJIiwiaWF0IjoxNTY2MjcxMTYxLCJleHAiOjE1NjYyNzgzNjF9.EHDu2LWtynEkEpr9T7P0_VYbOllRk2zAl1-wWDEAyV96jp62XTFQePSTo1V_v6do2Y7ViB8HKz7i04XhYF0RKQ",
+  "data": {
+    "userId": 13,
+    "fullName": "Shashikanth Kota",
+    "userName": "skota@gmail.com",
+    "totalBalance": 0,
+    "accountList": []
+  },
+  "message": "Create Account to Get Started",
+  "success": true
+}
