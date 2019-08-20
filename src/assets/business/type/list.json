@@ -1,0 +1,67 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Store / Shop",
+      "desc": "Departmental or Any store",
+      "logoUrl": "https://images.eclerk.in/test/businessTypes/defaultBusinessType.png"
+    },
+    {
+      "id": 2,
+      "name": "Whole Sale Agency",
+      "desc": "Whole Sale Agency or Medical Agency",
+      "logoUrl": "https://images.eclerk.in/test/businessTypes/defaultBusinessType.png"
+    },
+    {
+      "id": 3,
+      "name": "Travel",
+      "desc": "Travel Agency or Own Vechile Rentals ",
+      "logoUrl": "https://images.eclerk.in/test/businessTypes/defaultBusinessType.png"
+    },
+    {
+      "id": 4,
+      "name": "Tractor / Farm Equipment",
+      "desc": "Run Tractors or Farm Equipment Rentals",
+      "logoUrl": "https://images.eclerk.in/test/businessTypes/defaultBusinessType.png"
+    },
+    {
+      "id": 5,
+      "name": "School / Inistitute / Tutions / Gym / Traning",
+      "desc": "Run Own School or any kind of training insitute",
+      "logoUrl": "https://images.eclerk.in/test/businessTypes/defaultBusinessType.png"
+    },
+    {
+      "id": 6,
+      "name": "Service / Mechanic/ Skill Shop",
+      "desc": "Photography, Mechanic, Electrition, Goldsmith, Carpentar, Repair etc ",
+      "logoUrl": "https://images.eclerk.in/test/businessTypes/defaultBusinessType.png"
+    },
+    {
+      "id": 7,
+      "name": "Farm / Poultry",
+      "desc": "Farming Expense Tracking",
+      "logoUrl": "https://images.eclerk.in/test/businessTypes/defaultBusinessType.png"
+    },
+    {
+      "id": 8,
+      "name": "Rental Property",
+      "desc": "Owned House / Apartment Rental",
+      "logoUrl": "https://images.eclerk.in/test/businessTypes/defaultBusinessType.png"
+    },
+    {
+      "id": 9,
+      "name": "Equipement Rentals",
+      "desc": "Rent Machines, Party Stuff Rentals or other stuff rentals",
+      "logoUrl": "https://images.eclerk.in/test/businessTypes/defaultBusinessType.png"
+    },
+    {
+      "id": 10,
+      "name": "Friendly Loans / Micro Finace",
+      "desc": "Track Loans given to customers or friends",
+      "logoUrl": "https://images.eclerk.in/test/businessTypes/defaultBusinessType.png"
+    }
+  ],
+  "message": "Account Types Loaded Successfully",
+  "success": true,
+  "timestamp": "19-08-2019 11:37:39"
+}
