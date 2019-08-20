@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "id": 52,
+      "addedByName": "Shashikanth Kota",
+      "businessId": 33,
+      "businessName": "Air India Travels and CO",
+      "item": "E.Account",
+      "itemId": 33,
+      "activity": "Created",
+      "description": "Air India Travels and CO",
+      "apiPath": "/api/business/acctKey/",
+      "dateTime": "Mon Aug 19, 2019 7:30 PM"
+    },
+    {
+      "id": 53,
+      "addedByName": "Shashikanth Kota",
+      "businessId": 34,
+      "businessName": "Maria Indian Grocery",
+      "item": "E.Account",
+      "itemId": 34,
+      "activity": "Created",
+      "description": "Maria Indian Grocery",
+      "apiPath": "/api/business/acctKey/",
+      "dateTime": "Mon Aug 19, 2019 7:31 PM"
+    }
+  ],
+  "message": "Recent Activity Loaded Successfully",
+  "success": true,
+  "timestamp": "19-08-2019 11:32:17"
+}
